@@ -5,7 +5,6 @@ public class DoctorEggman extends Monster {
     }
     
     public String toString() {
-        super.toString();
-        System.out.println("Sonic defeating ability: 100%");
+        return super.toString() + " Sonic defeating ability: 100%";
     }
 }

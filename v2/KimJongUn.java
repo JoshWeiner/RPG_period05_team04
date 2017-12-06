@@ -5,6 +5,6 @@ public class KimJongUn extends Monster {
     }
     
     public String toString() {
-        super.toString();
+        return super.toString();
     }
 }
