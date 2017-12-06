@@ -5,6 +5,6 @@ public class LordFarquaad extends Monster {
     }
     
     public String toString() {
-        super.toString();
+        return super.toString();
     }
 }
