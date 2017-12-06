@@ -49,14 +49,21 @@ public class Panda extends Protagonist {
      */
 
     public int seppuku(Monster monster) {
+        double orginalAttackRating = getAttackRating();
         int damage = (int) Math.pow(getRotundness(), getKungFuSkill());
         setAttackRating(damage);
         setHp(1);
-        return attack(monster);
+        int damageDone = attack(monster);
+        setAttackRating(orginalAttackRating);
+        return damageDone;
     }
+
+    /**
+     * @return how scared you should be of the Panda
+     */
 
     @Override
     public String toString() {
-        return super.toString();
+        return super.toString() + "is a " + getKungFuSkill() + " belt in KungFu";
     }
 }
