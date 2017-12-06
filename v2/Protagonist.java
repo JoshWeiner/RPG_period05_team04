@@ -24,7 +24,7 @@ public class Protagonist extends Character {
     }
 
     /**
-     * Creates a Protagonist and uses user input to initialize all fields
+     * Creates a Protagonist
      * @param name is the name the Protagonist will have
      */
 
