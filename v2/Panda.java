@@ -1,3 +1,7 @@
+/**
+ * A Panda is a type of Protagonist
+ */
+
 public class Panda extends Protagonist {
 
     private final int kungFuSkill;
@@ -24,7 +28,7 @@ public class Panda extends Protagonist {
     }
 
     /**
-     * Creates a Panda, a type of Protagonist
+     * Creates a Panda
      *
      * @param name the name of the Panda
      * @param kungFuSkill how skillful the Panda is at KungFu
