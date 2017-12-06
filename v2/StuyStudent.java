@@ -42,6 +42,10 @@ public class StuyStudent extends Protagonist {
 
     }
 
+    /**
+     * @return the name of the StuyStudent and their SAT score
+     */
+
     @Override
     public String toString() {
         return super.toString() + " got a 1600 on the SAT";

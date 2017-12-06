@@ -54,4 +54,9 @@ public class Panda extends Protagonist {
         setHp(1);
         return attack(monster);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
