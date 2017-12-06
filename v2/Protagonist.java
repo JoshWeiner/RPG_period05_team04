@@ -56,4 +56,13 @@ public class Protagonist extends Character {
         setDefense(getDefense() * 2);
         setAttackRating(getAttackRating() / 2.0);
     }
+
+    /**
+     * @return the name of the Protagonist
+     */
+
+    @Override
+    public String toString() {
+        return getName();
+    }
 }
