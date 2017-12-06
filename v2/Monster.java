@@ -10,5 +10,12 @@ public class Monster extends Character{
         setDefense(defense);
         setAttackRating(attRate);
     }
+    
+    public String toString() {
+        System.out.println("Your name, you fiend: " + getName() +       System.lineSeparator()
+                          + "Your health: " + getHp() + System.lineSeparator()
+                          + "Your defense: " + getDefense() + System.lineSeparator()
+                          + "Your attack rating: " + getAttackRating());
+    }
 
 }
