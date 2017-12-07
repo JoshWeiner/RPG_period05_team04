@@ -6,5 +6,6 @@ public class KimJongUn extends Monster {
     
     public String toString() {
         return super.toString();
+        System.out.println("Nuclear missiles? I don't know what you are talking about!");
     }
 }

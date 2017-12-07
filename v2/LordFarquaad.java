@@ -6,5 +6,6 @@ public class LordFarquaad extends Monster {
     
     public String toString() {
         return super.toString();
+        System.out.println("The princess is mine!");
     }
 }
