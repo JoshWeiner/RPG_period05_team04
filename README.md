@@ -12,14 +12,14 @@ The Protagonist class extends the Character class. When the constructor of this 
 
 
 ### DoctorEggman Class
-The DoctorEggman Class extends the Monster class. It has a constructor that changes the values of Hp, strength, defense and attackRating to values different in the Monster class. It has a toString that returns these values.
+The DoctorEggman Class extends the Monster class. It has a constructor that changes the values of Hp, strength, defense and attackRating to values different than in the Monster class. It has a toString that returns these values.
 
 
 ### KimJongUn Class
-The KimJongUn Class extends the Monster class. It has a constructor that changes the values of Hp, strength, defense and attackRating to values different in the Monster class. It has a toString that returns these values.
+The KimJongUn Class extends the Monster class. It has a constructor that changes the values of Hp, strength, defense and attackRating to values different than in the Monster class. It has a toString that returns these values.
 
 ### LordFarquaad Class
-The LordFarquaad Class extends the Monster class. It has a constructor that changes the values of Hp, strength, defense and attackRating to values different in the Monster class. It has a toString that returns these values.
+The LordFarquaad Class extends the Monster class. It has a constructor that changes the values of Hp, strength, defense and attackRating to values different than in the Monster class. It has a toString that returns these values.
 
 ### Human Class
 The Human class extends the Protagonist class. It has a field called pronoun which is a String type. It has a constructor that takes two Strings as parameters and changes the value of the name from the Protagonist class to the name in the parameter. It has a toString() that returns the pronoun and the name.
