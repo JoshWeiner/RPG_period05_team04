@@ -1,4 +1,5 @@
-# RPG_period05_team04 ##Simon Berens, Henry Lin, Joshua Weiner
+# RPG_period05_team04 
+## Simon Berens, Henry Lin, Joshua Weiner
 
 ### Character Class
 The Character class includes methods and fields and other members that are common in the Protagonist class and Monster class.
