@@ -32,6 +32,6 @@ public class Human extends Protagonist{
 
     @Override
     public String toString() {
-        return getPronoun() + super.toString();
+        return getPronoun() + getName();
     }
 }

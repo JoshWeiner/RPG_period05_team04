@@ -48,6 +48,6 @@ public class StuyStudent extends Protagonist {
 
     @Override
     public String toString() {
-        return super.toString() + " got a 1600 on the SAT";
+        return getName() + " got a 1600 on the SAT";
     }
 }

@@ -64,6 +64,6 @@ public class Panda extends Protagonist {
 
     @Override
     public String toString() {
-        return super.toString() + "is a " + getKungFuSkill() + " belt in KungFu";
+        return getName() + "is a " + getKungFuSkill() + " belt in KungFu";
     }
 }
