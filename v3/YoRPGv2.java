@@ -8,8 +8,7 @@
 import java.io.*;   
 import java.util.*;
 
-public class YoRPGv2
-{
+public class YoRPGv2 {
   // ~~~~~~~~~~~ INSTANCE VARIABLES ~~~~~~~~~~~
 
   //change this constant to set number of encounters in a game

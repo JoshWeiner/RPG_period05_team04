@@ -2,7 +2,9 @@
  * The player the user will control
  */
 
-public class Protagonist extends Character {
+public abstract class Protagonist extends Character {
+
+//    Error:(76, 11) java: Protagonist is abstract; cannot be instantiated
     protected String name;
 
     /**
@@ -23,19 +25,6 @@ public class Protagonist extends Character {
         this.name = name;
     }
 
-    /**
-     * Creates a Protagonist
-     * @param name is the name the Protagonist will have
-     */
-
-    public Protagonist(String name) {
-        setName(name);
-        // initializes to a bunch of random values, later maybe use scanner?
-        setAttackRating(10);
-        setDefense(100);
-        setHp(10000);
-        setStrength(20);
-    }
 
     /**
      * Prepares the player for a special attack by increasing the damage dealt
@@ -62,7 +51,9 @@ public class Protagonist extends Character {
      */
 
     @Override
-    public String toString() {
-        return getName();
-    }
+    public abstract String toString();
+
+//    Error:(5, 8) java: Protagonist is not abstract and does not override abstract method toString() in Protagonist
+//    Error:(65, 21) java: toString() in Protagonist cannot override toString() in java.lang.Object
+//    attempting to assign weaker access privileges; was public
 }

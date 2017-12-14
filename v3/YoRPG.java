@@ -73,7 +73,7 @@ public class YoRPG
     } catch ( IOException e ) { }
 
     //instantiate the player's character
-    pat = new Protagonist( name );
+    pat = new StuyStudent(name, 5 );
 
   }//end newGame()
 
